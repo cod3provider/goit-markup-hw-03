@@ -16,12 +16,6 @@
     --filter-button-bg-color:#F5F4FA;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
 h1,
 h2,
 h3,
@@ -33,7 +27,6 @@ ul {
     margin: 0;
     padding: 0;
 }
-
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -61,12 +54,59 @@ body {
     text-decoration: none;
 }
 
+.page-header {
+    padding-top: 26px;
+    padding-bottom: 23px;
+    border: 1px solid #ECECEC;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+    outline: 2px solid tomato;  /* Тестовый не забыть убрать */
+}
+
+.header-container {
+    display: flex;
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    margin-right: auto;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.contacts-item:not(:first-child) {
+    margin-left: 50px;
+}
+
+.contacts-list {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
 .header-logo, .footer-logo {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+}
+
+.flex-logo {
+    margin-right: 93px;
 }
 
 .header-logo {
@@ -112,6 +152,10 @@ body {
 }
 
 .hero-title {
+    padding-top: 199px;
+    margin-left: auto;
+    margin-right: auto;
+    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -122,9 +166,9 @@ body {
 }
 
 .hero-btn {
-    height: 50px;
+    /* height: 50px; */
     min-width: 200px;
-    /* padding: 10px 32px; */
+    padding: 10px 32px;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
