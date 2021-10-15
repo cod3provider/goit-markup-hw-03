@@ -16,6 +16,25 @@
     --filter-button-bg-color:#F5F4FA;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
@@ -89,6 +108,7 @@ body {
 
 .hero {
     background-color: var(--bg-color);
+    text-align: center;
 }
 
 .hero-title {
@@ -103,7 +123,8 @@ body {
 
 .hero-btn {
     height: 50px;
-    width: 200px;
+    min-width: 200px;
+    /* padding: 10px 32px; */
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
