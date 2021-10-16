@@ -16,6 +16,8 @@
     --filter-button-bg-color:#F5F4FA;
     --bg-secondary-section-color: #F5F4FA;
     --bg-team-card: #ffffff;
+    --portfolio-border-color: #EEEEEE;
+    --section-padding: 94px;
 }
 
 h1,
@@ -42,8 +44,8 @@ body {
 }
 
 .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: var(--section-padding);
+    padding-bottom: var(--section-padding);
 }
 
 .visually-hidden {
@@ -371,14 +373,20 @@ img {
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc(100% / 3 - 30px);
-    outline: 1px solid tomato;
 }
 
-.portfolio-list .potfolio-btn:hover,
-.portfolio-list .potfolio-btn:focus,
-.portfolio-list .potfolio-btn:active {
+.filter-buttons .potfolio-btn:hover,
+.filter-buttons .potfolio-btn:focus,
+.filter-buttons .potfolio-btn:active {
     color: var(--hover-focus-button-color);
     background: var(--accent-color);
+}
+
+.portfolio-card {
+    padding: 20px 24px;
+    border-right: 1px solid var(--portfolio-border-color);
+    border-bottom: 1px solid var(--portfolio-border-color);
+    border-left: 1px solid var(--portfolio-border-color);
 }
 
 .portfolio-list .portfolio-title {

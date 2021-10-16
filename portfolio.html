@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Портфолио</title>
 </head>
 <body>
@@ -18,14 +19,26 @@
             <nav class="site-nav">
                 <a class="header-logo flex-logo" href="./index.html"><span>Web</span>Studio</a>
                 <ul class="nav-list">
-                    <li class="nav-item"><a class="nav-link" href="./index.html">Студия</a></li>
-                    <li class="nav-item"><a class="nav-link current-link" href="./portfolio.html">Портфолио</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Студия</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link current-link" href="./portfolio.html">Портфолио</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакты</a>
+                    </li>
                 </ul>
             </nav>
             <ul class="contacts-list">
-                <li class="contacts-item"><a class="header-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="contacts-item"><a class="header-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="contacts-item">
+                    <a class="header-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="contacts-item">
+                    <a class="header-link" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
             </ul>
         </div>
     </header>
@@ -35,11 +48,25 @@
             <div class="container"> 
                 <h1 class="visually-hidden">Портфолио</h1>
                 <ul class="filter-buttons">
-                    <li class="filter-button"><button class="potfolio-btn" type="button">Все</button></li>
-                    <li class="filter-button"><button class="potfolio-btn" type="button">Веб-сайты</button></li>
-                    <li class="filter-button"><button class="potfolio-btn" type="button">Приложения</button></li>
-                    <li class="filter-button"><button class="potfolio-btn" type="button">Дизайн</button></li>
-                    <li class="filter-button"><button class="potfolio-btn" type="button">Маркетинг</button></li>
+                    <li class="filter-button">
+                        <button class="potfolio-btn" type="button">Все</button>
+                    </li>
+                    
+                    <li class="filter-button">
+                        <button class="potfolio-btn" type="button">Веб-сайты</button>
+                    </li>
+                    
+                    <li class="filter-button">
+                        <button class="potfolio-btn" type="button">Приложения</button>
+                    </li>
+                    
+                    <li class="filter-button">
+                        <button class="potfolio-btn" type="button">Дизайн</button>
+                    </li>
+                    
+                    <li class="filter-button">
+                        <button class="potfolio-btn" type="button">Маркетинг</button>
+                    </li>
                 </ul>
                 <h2 class="visually-hidden">Наши работы</h2>
                 <ul class="portfolio-list">
@@ -47,8 +74,8 @@
                         <a class="portfolio-link" href="#">
                             <img src="./images/portfolio-01.jpg" alt="Страница сайта на экране ноутбука" width="370">
                             <div class="portfolio-card">
-                            <h3 class="portfolio-title">Технокряк</h3>
-                            <p class="portfolio-text">Веб-сайт</p>
+                                <h3 class="portfolio-title">Технокряк</h3>
+                                <p class="portfolio-text">Веб-сайт</p>
                             </div>
                         </a>    
                     </li>
@@ -56,64 +83,80 @@
                     <li class="portfolio-item">
                         <a class="portfolio-link" href="#">
                             <img src="./images/portfolio-02.jpg" alt="Два баскетболиста борятся за мяч" width="370">
-                            <h3 class="portfolio-title">Постер New Orlean vs Golden Star</h3>
-                            <p class="portfolio-text">Дизайн</p>
+                            <div class="portfolio-card">
+                                <h3 class="portfolio-title">Постер New Orlean vs Golden Star</h3>
+                                <p class="portfolio-text">Дизайн</p>
+                            </div>
                         </a>
                     </li>
 
                     <li class="portfolio-item">
                         <a class="portfolio-link" href="#">
                             <img src="./images/portfolio-03.jpg" alt="Логотип ресторана" width="370">
-                            <h3 class="portfolio-title">Ресторан Seafood</h3>
-                            <p class="portfolio-text">Приложение</p>
+                            <div class="portfolio-card">
+                                <h3 class="portfolio-title">Ресторан Seafood</h3>
+                                <p class="portfolio-text">Приложение</p>
+                            </div>
                         </a>
                     </li>
 
                     <li class="portfolio-item">
                         <a class="portfolio-link" href="#">
                             <img src="./images/portfolio-04.jpg" alt="Наушники" width="370">
-                            <h3 class="portfolio-title">Проект Prime</h3>
-                            <p class="portfolio-text">Маркетинг</p>
+                            <div class="portfolio-card">
+                                <h3 class="portfolio-title">Проект Prime</h3>
+                                <p class="portfolio-text">Маркетинг</p>
+                            </div>
                         </a>
                     </li>
 
                     <li class="portfolio-item">
                         <a class="portfolio-link" href="#">
                             <img src="./images/portfolio-05.jpg" alt="Две упаковочные коробки" width="370">
-                            <h3 class="portfolio-title">Проект Boxes</h3>
-                            <p class="portfolio-text">Приложение</p>
+                            <div class="portfolio-card">
+                                <h3 class="portfolio-title">Проект Boxes</h3>
+                                <p class="portfolio-text">Приложение</p>
+                            </div>
                         </a>
                     </li>
 
                     <li class="portfolio-item">
                         <a class="portfolio-link" href="#">
                             <img src="./images/portfolio-06.jpg" alt="Экран компьютера" width="370">
-                            <h3 class="portfolio-title">Inspiration has no Borders</h3>
-                            <p class="portfolio-text">Веб-сайт</p>
+                            <div class="portfolio-card">
+                                <h3 class="portfolio-title">Inspiration has no Borders</h3>
+                                <p class="portfolio-text">Веб-сайт</p>
+                            </div>
                         </a>
                     </li>
 
                     <li class="portfolio-item">
                         <a class="portfolio-link" href="#">
                             <img src="./images/portfolio-07.jpg" alt="Разворот журнала" width="370">
-                            <h3 class="portfolio-title">Издание Limited Edition</h3>
-                            <p class="portfolio-text">Дизайн</p>
+                            <div class="portfolio-card">
+                                <h3 class="portfolio-title">Издание Limited Edition</h3>
+                                <p class="portfolio-text">Дизайн</p>
+                            </div>
                         </a>
                     </li>
                     
                     <li class="portfolio-item">
                         <a class="portfolio-link" href="#">
                             <img src="./images/portfolio-08.jpg" alt="Лейбл товара" width="370">
-                            <h3 class="portfolio-title">Проект LAB</h3>
-                            <p class="portfolio-text">Маркетинг</p>
+                            <div class="portfolio-card">
+                                <h3 class="portfolio-title">Проект LAB</h3>
+                                <p class="portfolio-text">Маркетинг</p>
+                            </div>
                         </a>
                     </li>
                     
                     <li class="portfolio-item">
                         <a class="portfolio-link" href="#">
                             <img src="./images/portfolio-09.jpg" alt="Открытый ноутбук" width="370">
-                            <h3 class="portfolio-title">Growing Business</h3>
-                            <p class="portfolio-text">Приложение</p>
+                            <div class="portfolio-card">
+                                <h3 class="portfolio-title">Growing Business</h3>
+                                <p class="portfolio-text">Приложение</p>
+                            </div>
                         </a>
                     </li>
                 </ul>
