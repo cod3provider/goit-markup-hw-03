@@ -308,7 +308,7 @@ img {
 
 .footer-logo {
     display: block;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     color: var(--footer-logo-color);
 }
 
@@ -325,7 +325,7 @@ img {
 }
 
 .footer-item:not(:last-child) {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .footer-link {
