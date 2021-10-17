@@ -18,6 +18,7 @@
     --bg-team-card: #ffffff;
     --portfolio-border-color: #EEEEEE;
     --section-padding: 94px;
+    --section-title-font-weight: 700;
 }
 
 h1,
@@ -83,7 +84,6 @@ img {
 
 .header-container {
     display: flex;
-    align-items: center;
 }
 
 .site-nav {
