@@ -72,6 +72,7 @@ body {
 img {
     display: block;
     width: 100%;
+    height: auto;
 }
 
 /* -------------------Header--------------------- */
@@ -161,12 +162,9 @@ img {
 
 /* -----------------hero----------------- */
 
-.section.hero {
+.hero {
     padding-top: 199px;
     padding-bottom: 200px;
-}
-
-.hero {
     background-color: var(--bg-color);
     text-align: center;
 }
@@ -275,6 +273,11 @@ img {
     background-color: var(--bg-team-card);
 }
 
+.team-card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 .team-title,
 .team-text {
     font-size: 16px;
@@ -287,22 +290,16 @@ img {
 .team-title {
     font-weight: 500;
     color: var(--title-color);
-    margin-top: 30px;
 }
 
 .team-text {
     margin-top: 10px;
-    margin-bottom: 30px;
 }
 
 /* --------------------Footer----------------------- */
 
-.footer-container {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
 .footer {
+    padding: 60px 0;
     background-color: var(--bg-color);
 }
 
